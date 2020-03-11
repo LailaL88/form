@@ -35,6 +35,8 @@ input {
 
 i {
     display: inline;
+    position:relative;
+    right:15px;
     margin-left: -20px;
     visibility: hidden;
 }
@@ -68,6 +70,6 @@ p {
 
 @media only screen and (max-width:768px) {
     .form {
-        width: 95%;
+        width: 75%;
     }
 }
