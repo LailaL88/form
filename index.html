@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9abce3d2e8.js" crossorigin="anonymous"></script>
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="form">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form">
+            <div class="form-control">
+                <label for="username">Username</label><input type="text" name="username" id="username"><i class="fas fa-check-circle"></i><i class="fas fa-exclamation-circle"></i>
+                <p>Error message</p>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label><input name="email" id="email"><i class="fas fa-check-circle"></i><i class="fas fa-exclamation-circle"></i>
+                <p>Error message</p>
+            </div>
+            <div class="form-control ">
+                <label for="password">Password</label><input type="password" name="password" id="password"><i class="fas fa-check-circle"></i><i class="fas fa-exclamation-circle"></i>
+                <p>Error message</p>
+            </div>
+            <div class="form-control ">
+                <label for="passwordCheck">Password check</label><input type="password" name="passwordCheck" id="passwordCheck"><i class="fas fa-check-circle"></i><i class="fas fa-exclamation-circle"></i>
+                <p>Error message</p>
+            </div>
+            <button class="submit" action="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
