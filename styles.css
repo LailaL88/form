@@ -36,8 +36,8 @@ input {
 i {
     display: inline;
     position:relative;
-    right:15px;
-    margin-left: -20px;
+    left:85%;
+    top:-25px;
     visibility: hidden;
 }
 
